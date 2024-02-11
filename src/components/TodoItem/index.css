@@ -1,0 +1,24 @@
+.each-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.style-title {
+  color: #000000;
+}
+.style-button {
+  background-color: transparent;
+  border: solid 1px #ff0b37;
+  color: #ff0b37;
+  border-radius: 5px;
+  height: 25px;
+  width: 60px;
+  font-weight: bold;
+}
+.button-container {
+  align-self: center;
+}
